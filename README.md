@@ -15,9 +15,11 @@ class SimpleTest(unittest.TestCase):
        self.assertTrue(True, True) ## Yes not a very useful test :-)
 ```
 
-To run tests:
+To run tests, cd to root of repo:
 
 ```
+pip install unittest2
+pip install mock
 python test.py
 ```
 
